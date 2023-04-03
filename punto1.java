@@ -1,15 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package javaargprogramaClase4;
 
 import java.util.Arrays;
 
-/**
- *
- * @author Manuel
- */
+
 public class punto1{
 
   

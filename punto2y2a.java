@@ -1,22 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package javaargprogramaClase4;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-/**
- *
- * @author Manuel
- */
 public class punto2y2a {
     public static void main(String[] args) throws IOException {
 
-        String rutaArchivo = args[0];  //  extrae la ruta del archivo del primer argumento
-        String elegirOperacion = args[1]; // para decidir que tipo de operacion realizar(punto 2-A)
+        String rutaArchivo = "C:\\Users\\Manuel\\Documents\\NetBeansProjects\\JavaArgPrograma\\src\\javaargprogramaClase4\\numeros.txt";  
+        String elegirOperacion = "suma"; // para decidir que tipo de operacion realizar(punto 2-A)
         int contador = 0;
 
         try (BufferedReader lector = new BufferedReader(new FileReader(rutaArchivo))) {
